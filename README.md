@@ -1,3 +1,13 @@
+---
+title: SHL Assessment Recommender
+emoji: 🎯
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_port: 8000
+pinned: false
+---
+
 # SHL Conversational Assessment Recommender
 
 A stateless FastAPI agent that takes a recruiter from a vague hiring intent to a
