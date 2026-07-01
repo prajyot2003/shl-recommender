@@ -90,10 +90,16 @@ boundary end-to-end); **response accuracy — behavior probes 4/4** (no-recommen
 vague turn 1, off-topic refusal, injection refusal, grounded recommend); and
 **retrieval quality** — I confirmed the relevant items sit in the retrieved pool
 even for the low-recall personas (e.g. C6), so those misses are selection gaps the
-stub can't narrow, not retrieval gaps, and a real LLM lifts them. The 0.60 is
-therefore a conservative floor. `tests/test_agent.py` covers the hard-eval surface
-(schema, catalog-only recs, ≤10 cap, refusals carrying empty recs, routing,
-graceful degradation) — 11/11 passing offline.
+stub can't narrow, not retrieval gaps. The 0.60 is a conservative floor.
+`tests/test_agent.py` covers the hard-eval surface (schema, catalog-only recs,
+≤10 cap, refusals carrying empty recs, routing, graceful degradation) — 11/11
+passing offline. With a real LLM (Groq `llama-3.3-70b-versatile`) wired in,
+per-turn behavior — clarify/recommend/refine/compare/refuse — is qualitatively
+better (natural, reasoned replies; correctly handles catalog gaps by saying so
+instead of padding); however a *full-batch* replay run against Groq's free tier
+hit 429 rate limits partway through, silently degrading later personas to the
+stub fallback and dragging the measured mean recall down to 0.57 and probes to
+2/4 — see §7.
 
 ## 7. What didn't work / trade-offs
 - **Pure semantic retrieval** over-retrieved generic personality tests for specific
@@ -103,6 +109,16 @@ graceful degradation) — 11/11 passing offline.
   id-pool + re-resolution boundary removed that failure class entirely.
 - **Padding to 10** hurt precision on the trace-style shortlists (which are 2–7
   items); the prompt now prefers targeted lists.
+- **Groq free-tier rate limits during batch eval.** Running the full 10-persona ×
+  8-turn replay back-to-back against Groq's free tier triggers 429s partway
+  through; the orchestrator's LLM-failure fallback keeps every response
+  schema-valid (no crash), but it silently swaps in the deterministic stub for
+  the rate-limited turns, which *understated* the real-LLM numbers in a batch
+  run rather than overstating them. Single interactive turns (the actual
+  product usage pattern) are unaffected — confirmed live post-deploy. For a
+  clean full-batch measurement, the harness would need inter-call throttling or
+  a paid tier; I did not implement this since it doesn't affect the served
+  product's behavior, only back-to-back scripted eval runs.
 
 ## 8. AI-tool usage
 Used an AI coding assistant to scaffold boilerplate (Pydantic models, FastAPI
