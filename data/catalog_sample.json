@@ -1,0 +1,633 @@
+[
+  {
+    "entity_id": "",
+    "name": "Occupational Personality Questionnaire OPQ32r",
+    "link": "https://www.shl.com/products/product-catalog/view/occupational-personality-questionnaire-opq32r/",
+    "keys": [
+      "Personality & Behavior"
+    ],
+    "duration": "25 minutes",
+    "languages": [
+      "English International",
+      "French (Canada)",
+      "Portuguese",
+      "Chinese Simplified"
+    ],
+    "description": "Broad workplace personality questionnaire measuring 32 behavioural dimensions including strategic thinking, influencing, leadership style and team fit. Used across roles for selection and development.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "OPQ Universal Competency Report 2.0",
+    "link": "https://www.shl.com/products/product-catalog/view/opq-universal-competency-report-2-0/",
+    "keys": [
+      "Personality & Behavior"
+    ],
+    "duration": "",
+    "languages": [],
+    "description": "Report format derived from an OPQ32r administration, mapping personality to a universal competency framework. An output, not a separate questionnaire.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "OPQ Leadership Report",
+    "link": "https://www.shl.com/products/product-catalog/view/opq-leadership-report/",
+    "keys": [
+      "Personality & Behavior"
+    ],
+    "duration": "",
+    "languages": [
+      "Dutch",
+      "English International",
+      "English (USA)",
+      "Romanian"
+    ],
+    "description": "Leadership-focused report generated from OPQ32r results. Benchmarks candidates against leadership competencies for senior selection.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "OPQ MQ Sales Report",
+    "link": "https://www.shl.com/products/product-catalog/view/opq-mq-sales-report/",
+    "keys": [
+      "Personality & Behavior"
+    ],
+    "duration": "",
+    "languages": [
+      "Portuguese (Brazil)",
+      "Spanish",
+      "Danish",
+      "Dutch",
+      "Finnish"
+    ],
+    "description": "Sales-specific report reading OPQ results in sales terms, optionally enriched with the Motivation Questionnaire (MQ) to reflect sales motivators and drives.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "Sales Transformation 2.0 - Individual Contributor",
+    "link": "https://www.shl.com/products/product-catalog/view/salestransformationreport2-0-individualcontributor/",
+    "keys": [
+      "Personality & Behavior"
+    ],
+    "duration": "",
+    "languages": [],
+    "description": "Assesses how individual-contributor sales reps show up in a digital-first, modern selling model.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "Global Skills Assessment",
+    "link": "https://www.shl.com/products/product-catalog/view/global-skills-assessment/",
+    "keys": [
+      "Competencies",
+      "Knowledge & Skills"
+    ],
+    "duration": "16 minutes",
+    "languages": [
+      "Indonesian",
+      "Italian",
+      "Swedish",
+      "Thai",
+      "Portuguese (Brazil)"
+    ],
+    "description": "Self-reported skills assessment covering competencies and knowledge for talent audit and re-skilling initiatives.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "Global Skills Development Report",
+    "link": "https://www.shl.com/products/product-catalog/view/global-skills-development-report/",
+    "keys": [
+      "Development & 360"
+    ],
+    "duration": "",
+    "languages": [],
+    "description": "Development report spanning ability, situational judgment, competencies, 360 and personality for re-skilling and growth planning.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "SHL Verify Interactive G+",
+    "link": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-g/",
+    "keys": [
+      "Ability & Aptitude"
+    ],
+    "duration": "36 minutes",
+    "languages": [
+      "English (USA)",
+      "Chinese Traditional",
+      "Korean",
+      "Serbian"
+    ],
+    "description": "Adaptive general cognitive ability test covering inductive, numerical and deductive reasoning. Predicts learning speed and adaptability for technical and graduate roles.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "SHL Verify Interactive – Numerical Reasoning",
+    "link": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-reasoning/",
+    "keys": [
+      "Ability & Aptitude",
+      "Simulations"
+    ],
+    "duration": "20 minutes",
+    "languages": [
+      "French",
+      "German",
+      "Italian",
+      "Dutch"
+    ],
+    "description": "Interactive numerical reasoning ability test with simulation elements. Suited to finance, analyst and graduate numerical screening.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "Graduate Scenarios",
+    "link": "https://www.shl.com/products/product-catalog/view/graduate-scenarios/",
+    "keys": [
+      "Biodata & Situational Judgment"
+    ],
+    "duration": "Untimed",
+    "languages": [
+      "English International"
+    ],
+    "description": "Situational judgment test calibrated for graduate-level candidates. Measures work-context decision making with no prior experience assumed.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "Smart Interview Live Coding",
+    "link": "https://www.shl.com/products/product-catalog/view/smart-interview-live-coding/",
+    "keys": [
+      "Knowledge & Skills"
+    ],
+    "duration": "Variable",
+    "languages": [
+      "English (USA)"
+    ],
+    "description": "Adaptive live-coding interview platform. Panels can frame language-specific tasks (including languages with no dedicated knowledge test) in real time.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "Linux Programming (General)",
+    "link": "https://www.shl.com/products/product-catalog/view/linux-programming-general/",
+    "keys": [
+      "Knowledge & Skills"
+    ],
+    "duration": "25 minutes",
+    "languages": [
+      "English (USA)"
+    ],
+    "description": "Knowledge test on Linux systems programming, shell, and OS-level depth for backend and infrastructure engineers.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "Networking and Implementation (New)",
+    "link": "https://www.shl.com/products/product-catalog/view/networking-and-implementation-new/",
+    "keys": [
+      "Knowledge & Skills"
+    ],
+    "duration": "7 minutes",
+    "languages": [
+      "English (USA)"
+    ],
+    "description": "Knowledge test covering networking fundamentals and implementation for infrastructure and systems roles.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "Core Java (Advanced Level) (New)",
+    "link": "https://www.shl.com/products/product-catalog/view/core-java-advanced-level-new/",
+    "keys": [
+      "Knowledge & Skills"
+    ],
+    "duration": "13 minutes",
+    "languages": [
+      "English (USA)"
+    ],
+    "description": "Advanced Core Java knowledge test covering concurrency, JVM internals, performance tuning and design-level Java for senior engineers extending production services.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "Core Java (Entry Level) (New)",
+    "link": "https://www.shl.com/products/product-catalog/view/core-java-entry-level-new/",
+    "keys": [
+      "Knowledge & Skills"
+    ],
+    "duration": "11 minutes",
+    "languages": [
+      "English (USA)"
+    ],
+    "description": "Entry-level Core Java knowledge test calibrated for graduate hires reading and modifying existing code.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "Spring (New)",
+    "link": "https://www.shl.com/products/product-catalog/view/spring-new/",
+    "keys": [
+      "Knowledge & Skills"
+    ],
+    "duration": "9 minutes",
+    "languages": [
+      "English (USA)"
+    ],
+    "description": "Knowledge test on the Spring framework, dependency injection, and REST/service design for Java backend engineers.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "RESTful Web Services (New)",
+    "link": "https://www.shl.com/products/product-catalog/view/restful-web-services-new/",
+    "keys": [
+      "Knowledge & Skills"
+    ],
+    "duration": "12 minutes",
+    "languages": [
+      "English (USA)"
+    ],
+    "description": "Knowledge test on REST API design principles, HTTP semantics and web-service implementation.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "SQL (New)",
+    "link": "https://www.shl.com/products/product-catalog/view/sql-new/",
+    "keys": [
+      "Knowledge & Skills"
+    ],
+    "duration": "9 minutes",
+    "languages": [
+      "English (USA)"
+    ],
+    "description": "Knowledge test on SQL querying, joins and relational database concepts.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "Amazon Web Services (AWS) Development (New)",
+    "link": "https://www.shl.com/products/product-catalog/view/amazon-web-services-aws-development-new/",
+    "keys": [
+      "Knowledge & Skills"
+    ],
+    "duration": "6 minutes",
+    "languages": [
+      "English (USA)"
+    ],
+    "description": "Knowledge test on AWS cloud development services, deployment and cloud-native patterns.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "Docker (New)",
+    "link": "https://www.shl.com/products/product-catalog/view/docker-new/",
+    "keys": [
+      "Knowledge & Skills"
+    ],
+    "duration": "10 minutes",
+    "languages": [
+      "English (USA)"
+    ],
+    "description": "Knowledge test on Docker containerisation, images, and container-based deployment for DevOps and cloud-native engineers.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "MS Excel (New)",
+    "link": "https://www.shl.com/products/product-catalog/view/ms-excel-new/",
+    "keys": [
+      "Knowledge & Skills"
+    ],
+    "duration": "6 minutes",
+    "languages": [
+      "English (USA)",
+      "Spanish",
+      "French",
+      "Portuguese (Brazil)"
+    ],
+    "description": "Knowledge test on Microsoft Excel concepts for quick conceptual screening of admin and office roles.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "MS Word (New)",
+    "link": "https://www.shl.com/products/product-catalog/view/ms-word-new/",
+    "keys": [
+      "Knowledge & Skills"
+    ],
+    "duration": "4 minutes",
+    "languages": [
+      "Spanish",
+      "French",
+      "Portuguese (Brazil)",
+      "English (USA)"
+    ],
+    "description": "Knowledge test on Microsoft Word concepts for quick conceptual screening of admin and office roles.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "Microsoft Excel 365 (New)",
+    "link": "https://www.shl.com/products/product-catalog/view/microsoft-excel-365-new/",
+    "keys": [
+      "Knowledge & Skills",
+      "Simulations"
+    ],
+    "duration": "35 minutes",
+    "languages": [
+      "English (USA)"
+    ],
+    "description": "End-to-end Excel 365 simulation plus knowledge test capturing actual spreadsheet capability, not just conceptual understanding.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "Microsoft Word 365 (New)",
+    "link": "https://www.shl.com/products/product-catalog/view/microsoft-word-365-new/",
+    "keys": [
+      "Knowledge & Skills",
+      "Simulations"
+    ],
+    "duration": "35 minutes",
+    "languages": [
+      "English (USA)"
+    ],
+    "description": "End-to-end Word 365 simulation plus knowledge test capturing hands-on document capability.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "Microsoft Word 365 - Essentials (New)",
+    "link": "https://www.shl.com/products/product-catalog/view/microsoft-word-365-essentials-new/",
+    "keys": [
+      "Knowledge & Skills",
+      "Simulations"
+    ],
+    "duration": "25 minutes",
+    "languages": [
+      "English (USA)"
+    ],
+    "description": "Shorter Word 365 essentials simulation and knowledge test for core document tasks.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "HIPAA (Security)",
+    "link": "https://www.shl.com/products/product-catalog/view/hipaa-security/",
+    "keys": [
+      "Knowledge & Skills"
+    ],
+    "duration": "15 minutes",
+    "languages": [
+      "English (USA)"
+    ],
+    "description": "Knowledge test on HIPAA security provisions for healthcare staff handling protected patient information.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "Medical Terminology (New)",
+    "link": "https://www.shl.com/products/product-catalog/view/medical-terminology-new/",
+    "keys": [
+      "Knowledge & Skills"
+    ],
+    "duration": "3 minutes",
+    "languages": [
+      "English (USA)"
+    ],
+    "description": "Knowledge test on medical terminology for healthcare administrative and clinical-adjacent roles.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "Dependability and Safety Instrument (DSI)",
+    "link": "https://www.shl.com/products/product-catalog/view/dependability-and-safety-instrument-dsi/",
+    "keys": [
+      "Personality & Behavior"
+    ],
+    "duration": "10 minutes",
+    "languages": [
+      "Portuguese (Brazil)",
+      "Chinese Traditional",
+      "Danish",
+      "Dutch"
+    ],
+    "description": "Standalone personality instrument measuring integrity, reliability, dependability and safety attitudes across sectors. Predicts rule compliance in safety-critical and trust-sensitive roles.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "Manufac. & Indust. - Safety & Dependability 8.0",
+    "link": "https://www.shl.com/products/product-catalog/view/safety-and-dependability-focus-8-0/",
+    "keys": [
+      "Personality & Behavior"
+    ],
+    "duration": "16 minutes",
+    "languages": [
+      "English (USA)",
+      "German",
+      "Latin American Spanish",
+      "French"
+    ],
+    "description": "Sector-specific bundled safety and dependability personality solution with norms calibrated to manufacturing and industrial workforces.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "Workplace Health and Safety (New)",
+    "link": "https://www.shl.com/products/product-catalog/view/workplace-health-and-safety-new/",
+    "keys": [
+      "Knowledge & Skills"
+    ],
+    "duration": "9 minutes",
+    "languages": [
+      "English (USA)"
+    ],
+    "description": "Knowledge test on workplace health and safety principles and procedures.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "SVAR Spoken English (US) (New)",
+    "link": "https://www.shl.com/products/product-catalog/view/svar-spoken-english-us-new/",
+    "keys": [
+      "Knowledge & Skills"
+    ],
+    "duration": "",
+    "languages": [
+      "English (USA)"
+    ],
+    "description": "Automated spoken English screen calibrated for a US accent. Assesses spoken language proficiency for contact centre and voice roles.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "SVAR Spoken English (UK) (New)",
+    "link": "https://www.shl.com/products/product-catalog/view/svar-spoken-english-uk-new/",
+    "keys": [
+      "Knowledge & Skills"
+    ],
+    "duration": "",
+    "languages": [
+      "English (UK)"
+    ],
+    "description": "Automated spoken English screen calibrated for a UK accent for contact centre and voice roles.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "Contact Center Call Simulation (New)",
+    "link": "https://www.shl.com/products/product-catalog/view/contact-center-call-simulation-new/",
+    "keys": [
+      "Simulations"
+    ],
+    "duration": "15 minutes",
+    "languages": [
+      "English (USA)"
+    ],
+    "description": "Standalone newer simulation focused purely on the in-call contact-centre interaction. Suited to high-volume entry-level screening.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "Entry Level Customer Serv - Retail & Contact Center",
+    "link": "https://www.shl.com/products/product-catalog/view/entry-level-customer-serv-retail-and-contact-center/",
+    "keys": [
+      "Personality & Behavior",
+      "Competencies"
+    ],
+    "duration": "19 minutes",
+    "languages": [
+      "Latin American Spanish",
+      "German",
+      "French",
+      "Chinese Simplified"
+    ],
+    "description": "Behavioural and competency assessment for entry-level customer service roles in retail and contact centres.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "Customer Service Phone Simulation",
+    "link": "https://www.shl.com/products/product-catalog/view/customer-service-phone-simulation/",
+    "keys": [
+      "Biodata & Situational Judgment",
+      "Simulations"
+    ],
+    "duration": "20 minutes",
+    "languages": [
+      "French (Canada)",
+      "Portuguese (Brazil)",
+      "Dutch",
+      "Italian"
+    ],
+    "description": "Older bundled customer-service solution combining biodata/situational judgment and simulation for finalist-stage depth.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "Financial Accounting (New)",
+    "link": "https://www.shl.com/products/product-catalog/view/financial-accounting-new/",
+    "keys": [
+      "Knowledge & Skills"
+    ],
+    "duration": "9 minutes",
+    "languages": [
+      "English (USA)"
+    ],
+    "description": "Knowledge test on financial accounting concepts for finance and analyst roles.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  },
+  {
+    "entity_id": "",
+    "name": "Basic Statistics (New)",
+    "link": "https://www.shl.com/products/product-catalog/view/basic-statistics-new/",
+    "keys": [
+      "Knowledge & Skills"
+    ],
+    "duration": "10 minutes",
+    "languages": [
+      "English (USA)"
+    ],
+    "description": "Knowledge test on basic statistics for analyst, finance and data-adjacent roles.",
+    "remote": "yes",
+    "adaptive": "no",
+    "job_levels": []
+  }
+]

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+data/catalog_cache.json
+.venv/
+.claude/settings.local.json

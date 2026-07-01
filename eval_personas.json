@@ -1,0 +1,151 @@
+[
+  {
+    "name": "C1_senior_leadership",
+    "opener": "We need a solution for senior leadership.",
+    "facts": {
+      "who": "CXOs and director-level positions, people with more than 15 years of experience",
+      "for": "CXOs and director-level positions with 15+ years experience",
+      "newly created": "This is for selection, comparing candidates against a leadership benchmark",
+      "selection": "Selection, comparing candidates against a leadership benchmark",
+      "development": "Selection, not development"
+    },
+    "expected": [
+      "Occupational Personality Questionnaire OPQ32r",
+      "OPQ Universal Competency Report 2.0",
+      "OPQ Leadership Report"
+    ]
+  },
+  {
+    "name": "C2_rust_engineer",
+    "opener": "I'm hiring a senior Rust engineer for high-performance networking infrastructure. What assessments should I use?",
+    "facts": {
+      "cognitive": "Yes, add a cognitive test for this level",
+      "go ahead": "Yes, go ahead"
+    },
+    "expected": [
+      "Smart Interview Live Coding",
+      "Linux Programming (General)",
+      "Networking and Implementation (New)",
+      "SHL Verify Interactive G+",
+      "Occupational Personality Questionnaire OPQ32r"
+    ]
+  },
+  {
+    "name": "C3_contact_centre",
+    "opener": "We're screening 500 entry-level contact centre agents. Inbound calls, customer service focus. What should we use?",
+    "facts": {
+      "language": "English",
+      "accent": "US",
+      "variant": "US",
+      "which": "US"
+    },
+    "expected": [
+      "SVAR Spoken English (US) (New)",
+      "Contact Center Call Simulation (New)",
+      "Entry Level Customer Serv - Retail & Contact Center",
+      "Customer Service Phone Simulation"
+    ]
+  },
+  {
+    "name": "C4_graduate_finance",
+    "opener": "Hiring graduate financial analysts, final-year students with no work experience. We need numerical reasoning and a finance knowledge test.",
+    "facts": {
+      "situational": "Yes, add a situational judgement element for graduates",
+      "judgement": "Yes, add graduate situational judgement"
+    },
+    "expected": [
+      "SHL Verify Interactive \u2013 Numerical Reasoning",
+      "Financial Accounting (New)",
+      "Basic Statistics (New)",
+      "Graduate Scenarios",
+      "Occupational Personality Questionnaire OPQ32r"
+    ]
+  },
+  {
+    "name": "C5_sales_reskilling",
+    "opener": "As part of our restructuring and annual talent audit, we need to re-skill our Sales organization. What solutions do you recommend?",
+    "facts": {},
+    "expected": [
+      "Global Skills Assessment",
+      "Global Skills Development Report",
+      "Occupational Personality Questionnaire OPQ32r",
+      "OPQ MQ Sales Report",
+      "Sales Transformation 2.0 - Individual Contributor"
+    ]
+  },
+  {
+    "name": "C6_plant_operators",
+    "opener": "We're hiring plant operators for a chemical facility. Safety is absolute top priority: reliability, procedure compliance, never cutting corners. What do you recommend?",
+    "facts": {
+      "industrial": "We're industrial, the 8.0 bundle is the right fit",
+      "classified": "Industrial classified"
+    },
+    "expected": [
+      "Manufac. & Indust. - Safety & Dependability 8.0",
+      "Workplace Health and Safety (New)"
+    ]
+  },
+  {
+    "name": "C7_healthcare_bilingual",
+    "opener": "We're hiring bilingual healthcare admin staff in South Texas; they handle patient records and need to be assessed in Spanish. HIPAA compliance is critical. What assessments work?",
+    "facts": {
+      "pool": "They're functionally bilingual, English fluent for written work, go with the hybrid",
+      "fits": "Functionally bilingual, go with the hybrid",
+      "hybrid": "Go with the hybrid"
+    },
+    "expected": [
+      "HIPAA (Security)",
+      "Medical Terminology (New)",
+      "Microsoft Word 365 - Essentials (New)",
+      "Dependability and Safety Instrument (DSI)",
+      "Occupational Personality Questionnaire OPQ32r"
+    ]
+  },
+  {
+    "name": "C8_admin_office",
+    "opener": "I need to quickly screen admin assistants for Excel and Word daily.",
+    "facts": {
+      "simulation": "I'm OK with adding a simulation, we want to capture the capabilities",
+      "capabilit": "Yes, add a simulation to capture capabilities"
+    },
+    "expected": [
+      "Microsoft Excel 365 (New)",
+      "Microsoft Word 365 (New)",
+      "MS Excel (New)",
+      "MS Word (New)",
+      "Occupational Personality Questionnaire OPQ32r"
+    ]
+  },
+  {
+    "name": "C9_fullstack_jd",
+    "opener": "Here's the JD for an engineer we need to fill: Senior Full-Stack Engineer, 5+ years across Core Java, Spring, REST API design, Angular, SQL relational databases, AWS deployment and Docker. Owns end-to-end microservice delivery, contributes to architecture, mentors mid-level engineers. Strong CI/CD and cloud-native experience required.",
+    "facts": {
+      "backend": "Backend-leaning. Day-one priorities are Core Java and Spring; SQL is constant; Angular is occasional review-only",
+      "frontend": "Backend-leaning, Angular is occasional review only",
+      "balanced": "Backend-leaning, not balanced",
+      "senior ic": "Senior IC. They lead design on their own services but don't manage other engineers",
+      "tech lead": "Senior IC, not a tech lead"
+    },
+    "expected": [
+      "Core Java (Advanced Level) (New)",
+      "Spring (New)",
+      "SQL (New)",
+      "Amazon Web Services (AWS) Development (New)",
+      "Docker (New)",
+      "SHL Verify Interactive G+",
+      "Occupational Personality Questionnaire OPQ32r"
+    ]
+  },
+  {
+    "name": "C10_grad_trainee",
+    "opener": "We run a graduate management trainee scheme. We need a full battery: cognitive, personality, and situational judgement. All recent graduates.",
+    "facts": {
+      "shorter": "Drop the OPQ. Final list: Verify G+ and Graduate Scenarios",
+      "replace": "Drop the OPQ, keep Verify G+ and Graduate Scenarios"
+    },
+    "expected": [
+      "SHL Verify Interactive G+",
+      "Graduate Scenarios"
+    ]
+  }
+]

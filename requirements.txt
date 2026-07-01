@@ -1,0 +1,8 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+httpx>=0.27
+rank-bm25>=0.2.2
+rapidfuzz>=3.6
+# Optional semantic layer (enable with SHL_USE_SEMANTIC=1); not required to run:
+# sentence-transformers>=2.6
