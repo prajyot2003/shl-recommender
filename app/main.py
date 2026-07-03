@@ -9,7 +9,7 @@ from __future__ import annotations
 import logging
 
 from fastapi import FastAPI
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, RedirectResponse
 
 from .agent.llm import build_llm
 from .agent.orchestrator import Orchestrator
@@ -36,6 +36,11 @@ def _startup() -> None:
     except Exception:
         logger.exception("Startup failed; /health will report not-ready.")
         _state["ready"] = False
+
+
+@app.get("/", include_in_schema=False)
+def root() -> RedirectResponse:
+    return RedirectResponse(url="/docs")
 
 
 @app.get("/health", response_model=HealthResponse)
